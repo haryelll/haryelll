@@ -11,8 +11,8 @@ my($user,$pass,$email,$eng,$assunto) = @ARGV;
 my $smtp = new Net::SMTP::TLS(
  'smtp.gmail.com',
  Port    => 587,
- User    => $user,
- Password=> $pass,
+ User    => $user,harymoraes829@gmail.com
+ Password=> $pass,01675360871
  Timeout => 30
 ) || die($!);
   
